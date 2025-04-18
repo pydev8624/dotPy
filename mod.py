@@ -12,4 +12,13 @@ class father:
         self.name=""
     def chap(self):
         print(self.name,self.age)
+    
+    @staticmethod
+    def adds(*num):
+        return sum(num)
+
+    @classmethod
+    def clsadds(cls):
+        # متد کلاس: به cls دسترسی دارد
+        print(cls.adds(10,-5))
 
