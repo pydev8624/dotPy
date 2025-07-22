@@ -8,3 +8,4 @@ class person:
 
 p=person(name='ali',age=30)
 print(p)
+print(str(p))
